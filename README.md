@@ -9,7 +9,7 @@ Now you can visit `localhost:4000` from your browser.
 
 # Deploying your App to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/gjaldon/test)
 
 The deploy button above allows you to instantly deploy your applications to Heroku from your Github
 repo. If deploying from a public Github repo, this will work as soon as you comment out `import_config "prod.secret.exs"` from `config/prod.exs`.
