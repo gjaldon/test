@@ -20,5 +20,5 @@ config :testing, Testing.Repo,
   url: System.get_env("DATABASE_URL"),
   username: "postgres",
   password: "postgres",
-  database: "testing_prod"
+  database: "testing_prod",
   size: 20 # The amount of database connections in the pool
